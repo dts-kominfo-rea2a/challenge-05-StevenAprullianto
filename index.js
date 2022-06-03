@@ -10,7 +10,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 const sorter = (arrName, cbSort) =>{
   let hasil = [];
   for (let i = 0; i < arrName.length; i++) {
-    hasil.push(i+1+"."+cbSort(arrName)[i]);
+    hasil.push(i+1+". "+cbSort(arrName)[i]);
   }
 
   return hasil;
